@@ -1,0 +1,52 @@
+{
+    "pageNo": 1,
+    "pageSize": 10,
+    "total": 3,
+    "success": 0,
+    "message": "success",
+    "data": [
+        {
+            "id": 0,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/eb/12/fdeb12cb-b5be-4d9b-78ed-6aae49572b4b/logo_chat_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/60x60bb.jpg",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure "
+        },
+        {
+            "id": 1,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://source.unsplash.com/400x300",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure"
+        },
+        {
+            "id": 2,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/eb/12/fdeb12cb-b5be-4d9b-78ed-6aae49572b4b/logo_chat_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/60x60bb.jpg",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure"
+        },
+        {
+            "id": 3,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/eb/12/fdeb12cb-b5be-4d9b-78ed-6aae49572b4b/logo_chat_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/60x60bb.jpg",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure"
+        },
+        {
+            "id": 4,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/eb/12/fdeb12cb-b5be-4d9b-78ed-6aae49572b4b/logo_chat_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/60x60bb.jpg",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure"
+        },
+        {
+            "id": 5,
+            "title": "Bug fixes and performance improvements.",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/eb/12/fdeb12cb-b5be-4d9b-78ed-6aae49572b4b/logo_chat_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/60x60bb.jpg",
+            "favorite": false,
+            "descript": "Google Chat is an intelligent and secure"
+        }
+
+    ]
+}

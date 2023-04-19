@@ -26,6 +26,9 @@
 		BC333EB429DC9BFB00D0C825 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC333EB329DC9BFB00D0C825 /* HomeViewModel.swift */; };
 		BC85BB7529E462010085DBE1 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85BB7429E462010085DBE1 /* HomeViewRow.swift */; };
 		BC85BB7729E4623E0085DBE1 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85BB7629E4623E0085DBE1 /* FavoriteButton.swift */; };
+		BC85BB7929E5D43F0085DBE1 /* ColorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85BB7829E5D43F0085DBE1 /* ColorDetail.swift */; };
+		BC85BB7B29E5D4FD0085DBE1 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85BB7A29E5D4FD0085DBE1 /* ColorTheme.swift */; };
+		BC85BB7D29E5DDCA0085DBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85BB7C29E5DDC90085DBE1 /* ViewController.swift */; };
 		BC96BAD029DD6D650046D7AF /* SoftwareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96BACF29DD6D650046D7AF /* SoftwareRequest.swift */; };
 		BC96BAD229DD6E070046D7AF /* SoftwareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96BAD129DD6E070046D7AF /* SoftwareViewModel.swift */; };
 		BC96BADC29DDB6540046D7AF /* HeaderKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96BAD429DDB6540046D7AF /* HeaderKey.swift */; };
@@ -78,6 +81,9 @@
 		BC333EB329DC9BFB00D0C825 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BC85BB7429E462010085DBE1 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		BC85BB7629E4623E0085DBE1 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		BC85BB7829E5D43F0085DBE1 /* ColorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetail.swift; sourceTree = "<group>"; };
+		BC85BB7A29E5D4FD0085DBE1 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		BC85BB7C29E5DDC90085DBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC96BACF29DD6D650046D7AF /* SoftwareRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareRequest.swift; sourceTree = "<group>"; };
 		BC96BAD129DD6E070046D7AF /* SoftwareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareViewModel.swift; sourceTree = "<group>"; };
 		BC96BAD429DDB6540046D7AF /* HeaderKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderKey.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 				BC333EAF29DC750300D0C825 /* HomeStackView.swift */,
 				BC85BB7429E462010085DBE1 /* HomeViewRow.swift */,
 				BC85BB7629E4623E0085DBE1 /* FavoriteButton.swift */,
+				BC85BB7A29E5D4FD0085DBE1 /* ColorTheme.swift */,
+				BC85BB7829E5D43F0085DBE1 /* ColorDetail.swift */,
+				BC85BB7C29E5DDC90085DBE1 /* ViewController.swift */,
 				BC333E2929DC172900D0C825 /* Assets.xcassets */,
 				BC333E2B29DC172900D0C825 /* Preview Content */,
 			);
@@ -365,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC85BB7D29E5DDCA0085DBE1 /* ViewController.swift in Sources */,
 				BC96BAD029DD6D650046D7AF /* SoftwareRequest.swift in Sources */,
 				BC333EB029DC750300D0C825 /* HomeStackView.swift in Sources */,
 				BC96BADD29DDB6540046D7AF /* Utilities.swift in Sources */,
@@ -379,12 +389,14 @@
 				BC96BAD229DD6E070046D7AF /* SoftwareViewModel.swift in Sources */,
 				BC96BADE29DDB6540046D7AF /* FooterKey.swift in Sources */,
 				BC96BAE129DDB6540046D7AF /* Header.swift in Sources */,
+				BC85BB7929E5D43F0085DBE1 /* ColorDetail.swift in Sources */,
 				BC333EA629DC43A800D0C825 /* Console.swift in Sources */,
 				BC333EA229DC435E00D0C825 /* HSMockManager.swift in Sources */,
 				BC333EAC29DC47F000D0C825 /* Networking.swift in Sources */,
 				BC333EAE29DC4E7C00D0C825 /* HomeDataRequest.swift in Sources */,
 				BC333E2629DC172700D0C825 /* HongShanApp.swift in Sources */,
 				BC96BADC29DDB6540046D7AF /* HeaderKey.swift in Sources */,
+				BC85BB7B29E5D4FD0085DBE1 /* ColorTheme.swift in Sources */,
 				BC96BAE229DDB6540046D7AF /* List+Refresh.swift in Sources */,
 				BC333EA429DC437C00D0C825 /* HSMockParser.swift in Sources */,
 			);

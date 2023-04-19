@@ -43,7 +43,7 @@ struct HomeViewRow: View {
                     .padding(.bottom, 10)
             }
             .padding(.leading, -12)
-            .frame(maxWidth: 200, alignment: .leading)
+            .frame(maxWidth: 1000, alignment: .leading)
             FavoriteButton {
                 if isFollowed {
                     Image("FF0000_favorite_selected").padding(.trailing, 10)

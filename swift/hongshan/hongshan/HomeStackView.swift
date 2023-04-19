@@ -16,7 +16,7 @@ struct HomeStackView: View {
     @State private var footerRefreshing: Bool = false
     @State private var hasMore: Bool = false
     
-    @State private var selection: String?
+    @State private var selection: Int?
     var body: some View {
         NavigationStack {
             VStack {
@@ -27,10 +27,10 @@ struct HomeStackView: View {
                     ScrollView{
                         VStack(spacing: 10){
                             ForEach(viewModel.currentArray, id: \.trackId) { thisItem in
-                                // Item View
-                                HomeViewRow(app: thisItem)
-                                //设置每个卡片视图高度.
-                                    .frame(height: 100)
+                                // Item View jump detail.
+                                NavigationLink(destination: ColorTheme()) {
+                                    HomeViewRow(app: thisItem).frame(maxHeight: 100)
+                                }
                             }
                         }
                         .padding(.horizontal)

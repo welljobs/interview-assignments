@@ -98,6 +98,9 @@ protocol Networkable {
 
 public class Networking: Networkable {
     static let `default` = Networking()
+    private init() {
+        //  私有构造函数，防止外部创建新的实例.
+    }
     func fetch<R>(_ request: R, handler: @escaping (Result<R.Output, ResponseError>) -> Void) where R : HTTPRequest {
         if HSMockManager.default.hasMockData(for: request.path) {
             let duration = HSMockManager.default.requestDuration ?? 0
